@@ -1,0 +1,18 @@
+.contener {
+  	background-image: url("img/fon1.png");
+  	width: 2560px;
+	background-repeat: no-repeat;
+}
+
+header {
+	padding: 20px 364px 0;
+}
+
+.logo {
+  left: 364px;
+  top: 39px;
+  width: 64px;
+  height: 56px;
+  z-index: 446;
+}
+
