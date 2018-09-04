@@ -2,3 +2,13 @@
     font-family: Raleway-Regular; 
     src: url(Raleway-Regular.ttf); 
 }
+
+@font-face {
+    font-family: Raleway-ExtraBold; 
+    src: url(Raleway-ExtraBold.ttf); 
+}
+
+@font-face {
+    font-family: Montserrat-Light; 
+    src: url(MontserratAlternates-Light.otf); 
+}
