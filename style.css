@@ -19,12 +19,31 @@ header {
 	padding: 40px 376px 0;
 }
 
-header a {
+header .logo {
 	text-decoration: none;
+	width: 185px;
+	display: block;
+	float: left;
 }
 
-header a:hover svg .svg_logo {
+header .logo svg .svg_logo {
+	fill:white;
+}
+
+header .logo:hover svg .svg_logo {
 	fill:#c7b29a;
+}
+
+header .logo:hover p {
+	color: #c7b29a;
+}
+
+header .logo p {
+	font-family: Raleway-Regular;
+	color: #ffffff;
+	font-size: 34px; 
+	float: right;
+	padding-top: 10px;
 }
 
 header nav {
@@ -33,5 +52,38 @@ header nav {
 
 header nav ul li {
 	float: left;
+	list-style-type: none;
+	box-sizing: border-box;
+	padding-top: 21px;
 }
 
+header nav ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 21px 15px 10px;
+}
+
+header nav ul li a svg .icon_nav {
+	fill: white;
+}
+
+header nav ul li:hover a svg .icon_nav {
+	fill: #c7b29a;
+}
+
+header nav ul .cart a{
+	padding-left: 48px;
+	padding-right: 14px;
+}
+
+header nav ul .search a{
+	padding: 21px 0 10px 14px;
+}
+
+header nav ul li a:hover {
+	color: #c7b29a;
+}
+
+header nav ul li .active_nav {
+	color: #a4835b;
+}
