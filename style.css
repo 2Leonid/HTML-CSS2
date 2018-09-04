@@ -1,11 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:after  {
+	clear: both;
+    content: '';
+    display: block;
+}
+
 .contener {
   	background-image: url("img/fon1.png");
-  	width: 2560px;
+  	width: 1920px;
 	background-repeat: no-repeat;
 }
 
 header {
-	padding: 20px 364px 0;
+	padding: 40px 376px 0;
 }
 
+header a {
+	text-decoration: none;
+}
+
+header a:hover svg .svg_logo {
+	fill:#c7b29a;
+}
+
+header nav {
+	float: right;
+}
+
+header nav ul li {
+	float: left;
+}
 
