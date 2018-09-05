@@ -12,3 +12,8 @@
     font-family: Montserrat-Light; 
     src: url(MontserratAlternates-Light.otf); 
 }
+
+@font-face {
+    font-family: Raleway-SemiBold; 
+    src: url(Raleway-SemiBold.ttf); 
+}

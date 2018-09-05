@@ -178,3 +178,115 @@ header nav ul li .active_nav {
 	border: 2px solid #d3c1ad;
 	margin: -2px 3.5px;
 }
+
+.services {
+	padding: 80px 377px 80px 343px;
+}
+
+.services div {
+	float: left;
+	padding-left: 33px;
+	width: 267px;
+}
+
+.services div h3 {
+	text-align: center;
+	font-family: Raleway-SemiBold;
+	color: #555555;
+	font-size: 22px; 
+	margin-bottom: 10px;
+}
+
+.services div p {
+	font-family: Montserrat-Light;
+	color: #8c8c8c;
+	font-size: 14px;
+	line-height: 24px; 
+	text-align: center;
+	margin-bottom: 29px;
+}
+
+.services div hr {
+	width: 70px;
+	height: 3px;
+	background:  #f1eee9;
+	border: 0;
+	margin: 0 auto;
+}
+
+.services div svg .icon-services {
+	fill: #555555;
+	margin: 0 auto;
+}
+
+.services div .svg {
+	padding-left: 109px;
+	margin-bottom: 29px; 
+}
+
+.services .icon-two {
+	padding-top: 9px;
+}
+
+.services .icon-three{
+	padding-top: 4px;
+}
+
+.services .icon-four {
+	padding-top: 2px;
+}
+
+.services .active svg .icon-services {
+	fill: #c7b299;
+}
+
+.services .active h3{
+	color: #c7b299; 
+}
+
+.services .active hr {
+	color: #c7b299; 
+}
+
+.realizator {
+	padding: 83px 345px 0;
+}
+
+.realizator h3 {
+	font-family: Raleway-SemiBold;
+	color: #555555;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 24px;
+}
+
+.realizator p {
+	font-family: Montserrat;
+	color: #8c8c8c;
+	font-size: 16px; 
+	text-align: center;
+	width: 680px;
+	margin: 0 auto 40px;
+}
+
+.realizator .screen {
+	position: relative;
+}
+
+.realizator .screen .left {
+	position: absolute;
+	top: 82px;
+}
+
+.realizator .screen .center {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+.realizator .screen .right {
+	position: absolute;
+	right: 0;
+	top: 82px;
+}
