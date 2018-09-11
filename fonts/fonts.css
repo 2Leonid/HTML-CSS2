@@ -27,3 +27,8 @@
     font-family: Roboto-Regular; 
     src: url(Roboto-Regular.ttf); 
 }
+
+@font-face {
+    font-family: Raleway-Bold; 
+    src: url(Raleway-Bold.ttf); 
+}

@@ -26,7 +26,7 @@ header .logo {
 	float: left;
 }
 
- .logo svg .svg_logo {
+.logo svg .svg_logo {
 	fill:white;
 }
 
@@ -34,11 +34,11 @@ header .logo {
 	fill:#c7b29a;
 }
 
- .logo:hover p {
+.logo:hover p {
 	color: #c7b29a;
 }
 
- .logo p {
+.logo p {
 	font-family: Raleway-Regular;
 	color: #ffffff;
 	font-size: 34px; 
@@ -87,9 +87,6 @@ header nav ul li a:hover {
 	color: #c7b29a;
 }
 
-header nav ul li .active_nav {
-	color: #a4835b;
-}
 
 .slider {
 	padding: 924px 150px 0;
@@ -274,16 +271,16 @@ header nav ul li .active_nav {
 	padding-top: 2px;
 }
 
-.services .active svg .icon-services {
+.services div:hover svg .icon-services {
 	fill: #c7b299;
 }
 
-.services .active h3{
+.services div:hover h3{
 	color: #c7b299; 
 }
 
-.services .active hr {
-	color: #c7b299; 
+.services div:hover hr {
+	background-color: #c7b299; 
 }
 
 .realizator {
@@ -329,32 +326,32 @@ header nav ul li .active_nav {
 	bottom: 0;
 }
 
-.WordPress {
+.wordpress {
 	padding: 48px 375px;
 	background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
 }
 
-.WordPress .text {
+.wordpress .text {
 	float: left;
 }
 
-.WordPress .text h3 {
+.wordpress .text h3 {
 	font-family: Raleway-Regular;
 	color: #ffffff;
 	font-size: 28px;
 }
 
-.WordPress .text h3 span {
+.wordpress .text h3 span {
 	color: #c7b299;
 }
 
-.WordPress .text p {
+.wordpress .text p {
 	font-family: Montserrat;
 	color: #615855;
 	font-size: 18px; 
 }
 
-.WordPress a {
+.wordpress a {
 	border-radius: 3px;
 	background-color: #998675;
 	padding: 19px 0;
@@ -368,7 +365,7 @@ header nav ul li .active_nav {
 	border-bottom: 2px solid #65594e;
 }
 
-.WordPress a:hover {
+.wordpress a:hover {
 	transform: translate(-2px, -2px);
 	box-shadow: 2px 2px 10px #998675;
 	border: none;
@@ -845,17 +842,129 @@ header nav ul li .active_nav {
 	margin: 0 45px;
 }
 
-footer {
-	background-color: #191919;
-	padding: 0 375px;
-
-}
-
 footer .up {
-	column-count: 4;
+	padding: 108px 375px;
+	background-color: #191919;
+	display: flex;
+	justify-content: space-between;
 }
 
-footer .up .logo {
-	width: 185px;
-	display: block;
+footer .up div {
+	width: 258px;
 }
+
+footer p {
+	font-family: Montserrat-Light;
+	color: #545454;
+	font-size: 14px; 
+	line-height: 24px; 
+	text-align: left;
+}
+
+footer .up div hr {
+	background-color: #252525;
+	border: none;
+	width: 270px;
+	height: 2px;
+	margin: 20px 0;
+}
+
+footer .up div .logo {
+	margin-bottom: 29px; 
+	text-decoration: none;
+	display: block;
+	margin-top: -28px;
+	width: 185px;
+}
+
+footer .up div .logo:hover p {
+	color: #c7b29a;
+}
+
+footer .up div .logo p {
+	font-family: Raleway-Regular;
+	color: #ffffff;
+	font-size: 34px; 
+	float: right;
+	padding-top: 10px;
+	width: 120px;
+}
+
+footer .up div h3 {
+	font-family: Raleway-Bold;
+	color: #ffffff;
+	font-size: 24px; 
+	text-align: left;
+	margin-bottom: 33px;
+}
+
+footer .up div .post-one {
+	width: 258px;
+	margin-bottom: 33px;
+}
+
+footer .up div a {
+	font-family: Montserrat-Light;
+	color: #d1d1d1;
+	font-size: 14px; 
+	text-decoration: none;
+}
+
+footer .up div a:hover {
+	text-decoration: underline;
+}
+
+footer .up div .date {
+	font-family: Montserrat-Light;
+	color: #363636;
+	font-size: 12px; 
+	margin-bottom: 0;
+}
+
+footer .up div .white {
+	color: #ffffff;
+}
+
+footer .beige{
+	color: #c7b299;
+}
+
+footer .up div .width {
+	width: 270px;
+}
+
+footer .up div .blue {
+	color: #00bff3;
+}
+
+footer .grey {
+	color: #959595;
+	text-decoration: none;
+}
+
+footer .up div div {
+	column-count: 2;
+	display: block;
+	position: relative;
+}
+
+footer .up div div img {
+	margin-bottom: 4px;
+	transition: all .2s ease-in-out;
+}
+
+footer .up div div a:hover img {
+	filter: brightness(.3);
+}
+
+footer .down {
+	background-color: #111111;
+	padding: 45px 375px;
+	display: flex;
+	justify-content: space-around;
+}
+
+footer .down  p .line {
+	margin: 0 15px;
+}
+
