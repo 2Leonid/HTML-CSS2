@@ -1,0 +1,128 @@
+@media screen and (max-width: 768px) {
+	.contener {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	header {
+		padding-left: 0;
+		padding-right: 0;		
+	}
+
+	header .logo {
+		margin: 0 auto;
+		float: none;
+		padding-left: 0;
+		padding-right: 0;
+		width: 40%;
+	}
+
+	header .logo p {
+		display: none;
+	}
+
+	header .logo svg{
+		width: 100%;
+    	height: auto;
+	}
+
+
+	header nav {
+		position: absolute;
+		z-index: 2;
+		left: 60px;
+		top: 50%;
+	}
+  
+  	nav label{
+    	display: inline-block;
+  	}
+   	nav ul {
+    	opacity: 0;
+    	max-height: 0;
+     	flex-direction: column;
+     	margin-left: -12px;
+     	padding-top: 0;
+     	background: #474540f5;
+     	margin-top: 20px;
+  	}
+
+  	nav ul li{
+    	 margin-top: 10px;
+   	}
+
+  	nav li:not(:last-child){
+     	margin-right: 15px;
+ 	}
+
+ 	header nav ul .cart a {
+ 		padding-left: 15px;
+ 	}
+
+ 	.slider {
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+		padding-top: 450px;
+
+	}
+
+	.slider img {
+	    object-fit: cover;
+	    width: 100%;
+	    height: 750px;
+	    top: -300px;
+	}
+
+	.slider .in-slider-one h3 {
+		font-size: 36px;
+	}
+
+	.slider .in-slider-one h1 {
+		font-size: 52px;
+	}
+
+	.slider .in-slider-one .text p {
+		width: 600px;
+		font-size: 26px;
+	}
+
+	.slider .arrows {
+		display: none;
+	}
+	
+	.services {
+		padding-left: 0;
+		padding-right: 0;
+		margin: 0 auto;
+		width: 270px;
+
+	}
+
+	.services div {
+		margin-bottom: 40px;
+		padding-left: 0;
+	}
+
+	.realizator {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.realizator h3 {
+		font-size: 28px;
+	}
+
+	.realizator p {
+		width: 90%;
+	}
+
+	.video {
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	.video img {
+		width: 100%;
+	}
+ }

@@ -11,12 +11,12 @@
 
 .contener {
   	width: 1920px;
-	background-repeat: no-repeat;
 	margin: 0 auto;
 }
 
 header {
 	padding: 40px 376px 0;
+	position: relative;
 }
 
 header .logo {
@@ -48,13 +48,89 @@ header .logo {
 
 header nav {
 	float: right;
+	position: relative;
 }
+
+nav input {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+nav  label {
+  display: none;
+}
+
+nav label {
+  cursor: pointer;
+  display: none;
+  margin: 0.4em 0;
+  position: relative;
+}
+
+#menu-icon,
+#menu-icon:before,
+#menu-icon:after {
+  background: white;
+  height: 10px;
+  width: 50px;
+  border-radius: 3.05em;
+  transition: all 0.2s ease-in-out;
+}
+
+
+#menu-icon:before,
+#menu-icon:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  height: 10px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+#menu-icon:before {
+  top: -0.4em;
+}
+
+#menu-icon:after {
+  bottom: -0.4em;
+}
+
+nav input:checked~ul {
+  bottom: 0;
+  max-height: inherit;
+  opacity: 1;
+}
+
+nav input[type=checkbox]:checked+#menu-icon {
+  background: transparent;
+}
+
+nav input[type=checkbox]:checked+#menu-icon:before {
+  top: 10px;
+  transform: rotate(-45deg);
+}
+
+nav input[type=checkbox]:checked+#menu-icon:after {
+  bottom: 10px;
+  transform: rotate(45deg);
+}
+
+nav ul {
+	font-size: 1em;
+	list-style: none;
+	margin: 0;
+	padding-top: 21px;
+	overflow: hidden;
+	display: flex;
+}
+
 
 header nav ul li {
 	float: left;
 	list-style-type: none;
 	box-sizing: border-box;
-	padding-top: 21px;
 }
 
 header nav ul li a {
@@ -94,6 +170,17 @@ header nav ul li a:hover {
 	width: 1620px;
 }
 
+.slider .in-slider-one {
+	position: absolute;
+	width: 100%;
+  	display: flex;
+  	justify-content: space-between;
+  	align-items: center;
+  	top: 50%;
+  	transform: translateY(-50%);
+  	left: 0;
+}
+
 .slider img {
 	position: absolute;
 	top: -100px;
@@ -113,18 +200,6 @@ header nav ul li a:hover {
 	color: #ffffff;
 	font-size: 52px; 
 	text-align: center;
-}
-
-.slider .in-slider-one {
-	position: absolute;
-	width: 100%;
-  	display: flex;
-  	justify-content: space-between;
-  	align-items: center;
-  	position: absolute;
-  	top: 50%;
-  	transform: translateY(-50%);
-  	left: 0;
 }
 
 .slider .in-slider-one .text {
