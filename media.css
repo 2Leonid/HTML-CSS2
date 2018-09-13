@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
 	.contener {
 		width: 100%;
 		margin: 0 auto;
@@ -14,7 +14,7 @@
 		float: none;
 		padding-left: 0;
 		padding-right: 0;
-		width: 40%;
+		max-width: 260px;
 	}
 
 	header .logo p {
@@ -83,8 +83,12 @@
 	}
 
 	.slider .in-slider-one .text p {
-		width: 600px;
+		max-width: 600px;
 		font-size: 26px;
+	}
+
+	.slider .indicator {
+		bottom: 15px;
 	}
 
 	.slider .arrows {
@@ -107,6 +111,7 @@
 	.realizator {
 		padding-left: 0;
 		padding-right: 0;
+		padding-top: 0;
 	}
 
 	.realizator h3 {
@@ -117,9 +122,36 @@
 		width: 90%;
 	}
 
+	.realizator .screen {
+		max-width: 1920px;
+		margin-bottom: -10px;
+	}
+
+	.realizator .screen img {
+		width: 62%;
+	}
+
+	.wordpress {
+		padding-left: 40px;
+		padding-right: 0;
+	}
+
+	.wordpress .text {
+		float: none;
+		margin-bottom: 35px;
+	}
+
+	.wordpress a {
+		float: none;
+	}
+
 	.video {
 		padding-right: 0;
 		padding-left: 0;
+	}
+
+	.projects {
+		padding-left: 20px;
 	}
 
 	.video img {
